@@ -2,6 +2,7 @@ package com.bmob.bmobpushdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -208,6 +209,21 @@ public class MainActivity extends Activity implements OnClickListener {
      * @param deviceData 存储要推送设备的ID以及相关要推送的信息
      */
     private void myPush(Map<String, ArrayList<String>> deviceData) {
+        for (String deviceID : deviceData.keySet()) {
+            String installationId = deviceID;
+            BmobPushManager bmobPush = new BmobPushManager(this);
+            BmobQuery<BmobInstallation> query = BmobInstallation.getQuery();
+            query.addWhereEqualTo("installationId", installationId);
+            //找出相应的设备
+//            bmobPush.setQuery(query);
+            Log.i("push", deviceID);
+            for (String message : deviceData.get(installationId)) {
+                bmobPush.setQuery(query);
+                //给设备推送消息
+                bmobPush.pushMessage(message);
+                Log.i("push", message);
+            }
+        }
 
     }
 }
