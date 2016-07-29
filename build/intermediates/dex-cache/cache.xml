@@ -1,3 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_cd17d326241b6d6a08c4f9f4a82851f94ea26bc5.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\AndroidStudio\bmob_push_demo\app\libs\bmobPush_0.2beta.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f4b73d30fc9e273bfd67463e6237fc573476e4f1">
+        <dex dex="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\pre-dexed\debug\bmobPush_0.2beta_92d3cca52619c32a38ec00bf69d38c124622c03b.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="86c341c89271048a5c99f8632e44263fedfdfa20">
+        <dex dex="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_52562d161f48a3ea3b5e6e7d3051c74901836bc2.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="586d4a267574615fe3740100a9bb4370ceb0eeaf">
+        <dex dex="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\pre-dexed\debug\instant-run_0259f5a71f4a5549bfc7b6cc84bc43645a3d9091.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\AndroidStudio\bmob_push_demo\app\libs\bmob_v3.2.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="40b481ab313a437352ed0f846e25c75814d93c31">
+        <dex dex="G:\Workspace\AndroidStudio\bmob_push_demo\app\build\intermediates\pre-dexed\debug\bmob_v3.2.0_f600f1b1f81cc53312132b94e2345217ef14d121.jar" />
+    </item>
+
+</items>

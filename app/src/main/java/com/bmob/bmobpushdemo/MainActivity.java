@@ -24,6 +24,7 @@ import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 
+//回家前
 public class MainActivity extends Activity implements OnClickListener {
 
     private static String APPID = "e8df3a4a59521a65d38869db05fb1210";
